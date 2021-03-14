@@ -5,7 +5,7 @@
   --accent-color-text: #2196f3;
   --logo-color-head: #000;
   --dark-bgc: #2F303A;
-  --light-bgc: #F5F4FA;
+  --light-bgc: #f5f4fa;
 }
 
 
@@ -122,6 +122,32 @@ font-size: 16px;
 line-height: 1.18;
 }
 
+/* Портфолио */
+
+.filter-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+color: #212121;
+  background-color: var(--light-bgc);
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--bg-color-text);
+  background-color: var(--accent-color-text);
+cursor: pointer;
+}
+.example-title {
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--second-color-text);
+}
+.example-text {
+font-size: 16px;
+line-height: 1.87;
+color: var(--main-color-text);
+}
 /* footer */
 .dark-bg {
   background-color: var(--dark-bgc);
