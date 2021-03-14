@@ -1,0 +1,149 @@
+:root {
+  --main-color-text: #757575;
+  --second-color-text: #212121;
+  --bg-color-text: #fff;
+  --accent-color-text: #2196f3;
+  --logo-color-head: #000;
+  --dark-bgc: #2F303A;
+  --light-bgc: #F5F4FA;
+}
+
+
+body {
+font-family: "Roboto", sans-serif;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--main-color-text);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+
+/* header */
+.part-of-logo {
+  color: var(--accent-color-text);
+}
+.logo {
+font-family: "Raleway", sans-serif;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+color: var(--logo-color-head) ;
+}
+
+.link-our {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+.site-nav .link {
+color: var(--second-color-text);
+}
+
+.contacts .link {
+color: var(--main-color-text);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color-text);
+}
+.site-nav .current {
+  color: var(--accent-color-text);
+}
+
+/* Студия */
+/* main */
+.hero {
+  background-color: var(--dark-bgc);
+}
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--bg-color-text);
+}
+
+.hero .btn {
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+
+letter-spacing: 0.06em;
+color: var(--bg-color-text);
+background-color: var(--accent-color-text);
+cursor: pointer;
+}
+.section-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+color: var(--second-color-text);
+}
+.list-title {
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+color: var(--second-color-text);
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.team {
+  background-color: var(--light-bgc);
+}
+.name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.36px;
+text-transform: none;
+}
+.position {
+font-size: 16px;
+line-height: 1.18;
+}
+
+/* footer */
+.dark-bg {
+  background-color: var(--dark-bgc);
+}
+.dark-bg .logo {
+  color: #fff;
+}
+
+/* .connection {
+font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+} */
+.connection .link {
+  font-style: normal;
+font-size: 14px;
+line-height: 1.71;
+}
+.link-map {
+color: #FFF;
+}
+.mail,
+.tell {
+color: rgba(255, 255, 255, 0.6);
+}
